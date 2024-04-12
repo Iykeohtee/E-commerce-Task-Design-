@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { details } from "@/utilities/constants" 
 import Image from 'next/image';
 
-const collection = () => {
+const collection = () => {    
   return (
     <div className='w-[1200px] ml-[70px] mt-[30px]'> 
 
@@ -19,7 +19,7 @@ const collection = () => {
         </div>
       </div>
 
-      <div className='flex flex-wrap w-full h-[700px]'>
+      <div className='flex flex-wrap w-full'>
         {details.map((detail) => (
           <div key={detail.name} className='relative bg-slate-300 border-[1px] border-black border-solid'>
               <Image

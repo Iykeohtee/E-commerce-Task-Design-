@@ -9,6 +9,9 @@ import main_product8 from '../public/main_product8.jpg';
 import cart from '../public/cart.svg' 
 import group from '../public/Group.svg' 
 import collection from '../public/collection.svg' 
+import blog_list1 from '../public/blog_list1.png' 
+import blog_list2 from '../public/blog_list2.png' 
+import blog_list3 from '../public/blog_list3.png' 
 
 export const details = [
     { name: 'Black Jacket', img: main_product1, price: '$350.00', cart: cart, status: 'New', group: group, collection: collection}, 
@@ -19,4 +22,10 @@ export const details = [
     { name: 'OTK Boots Jacket', img: main_product6, price: '$300.00', cart: cart, status: '', group: group, collection: collection},
     { name: 'Biege T-shirt', img: main_product7, price: '$60.00', cart: cart, status: '', group: group, collection: collection},
     { name: 'Black Hat', img: main_product8, price: '$45.00', cart: cart, status: '', group: group, collection: collection},
+]
+
+export const blogs = [
+    { image: blog_list1, date: 'September 29, 2022', detail: 'Fashion , Inspiration', description: 'Top 10 Essential for 2022 you should try', more: 'Read More'},
+    { image: blog_list2, date: 'September 29, 2022', detail: 'Fashion , Inspiration', description: 'The Complete Communication Skill Master Class for work and leisure', more: 'Read More'},
+    { image: blog_list3, date: 'September 29, 2022', detail: 'Fashion , Inspiration', description: 'Premium Consultant Course for you', more: 'Read More'}
 ]

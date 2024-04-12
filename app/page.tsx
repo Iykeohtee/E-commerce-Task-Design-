@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Collection from '@/components/collection' 
 import Gender from '@/components/gender' 
+import Blog from '@/components/blog' 
+import Portfolio from '@/components/portfolio' 
+import Socials from '@/components/socials' 
 
 export default function Home() {
   return (
@@ -62,8 +65,11 @@ export default function Home() {
       </div>
     </main> 
 
-      <Collection/>
+      <Collection/> 
       <Gender/> 
+      <Blog/>
+      <Portfolio/> 
+      <Socials/>
      </>
   );
 }

@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">  
-      <body className={noto_san.className}>      
+      <body className={`${noto_san.className} overflow-x-hidden`}>      
         <Navbar/>    
         {children} 
        </body>   
