@@ -7,7 +7,7 @@ import main_product6 from '../public/main_product5.jpg';
 import main_product7 from '../public/main_product7.jpg'; 
 import main_product8 from '../public/main_product8.jpg';
 import cart from '../public/cart.svg' 
-import group from '../public/Group.svg' 
+import group from '../public/group.svg' 
 import collection from '../public/collection.svg' 
 import blog_list1 from '../public/blog_list1.png' 
 import blog_list2 from '../public/blog_list2.png' 
