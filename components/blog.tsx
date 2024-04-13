@@ -14,8 +14,8 @@ const blog = () => {
 
       <div className='flex flex-row justify-between mt-[40px]'>
           {
-            blogs.map((blog) => (
-              <div className='w-[370px] relative'>
+            blogs.map((blog, i) => (
+              <div key={i} className='w-[370px] relative'>
                 <Image src={blog.image} height={350} width={370} alt='blog_img'/>
                 <button 
                  className='absolute flex justify-center items-center top-[10px] left-[10px] w-[130px] h-[20px] text-[8px] uppercase font-[600] bg-white' >
