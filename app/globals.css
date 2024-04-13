@@ -52,3 +52,12 @@ span{
   background-image: url('/section.jpg');
   object-fit: cover;
 }
+.widget{
+  border-right: 1px solid black;
+}
+.email_footer{
+  border-bottom: 1px solid black;
+}
+.right_footer{
+  border-top: 1px solid black;
+}

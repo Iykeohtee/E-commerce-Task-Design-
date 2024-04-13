@@ -21,7 +21,28 @@ const socials = () => {
         <Image src='/instagram-img-1.png' height={210} width={230} alt='Instagram_Images'/> 
       </div>
 
-      <div></div>
+      <div className='relative flex mt-[70px] border border-black border-solid p-[30px] w-screen'>
+        <div className='widget absolute top-0 left-0 flex justify-center items-center gap-3 h-[100%] w-[25%]'> 
+          <Image src='/svg10.svg' height={20} width={20} alt='Fast Delivery'/>
+          <p className='uppercase text-[10px] font-[600]'>Fast Delivery</p>
+        </div>
+
+        <div className='widget absolute top-0 left-[25%] flex justify-center items-center gap-3 h-[100%] w-[25%]'> 
+          <Image src='/svg (1).svg' height={20} width={20} alt='Fast Delivery'/>
+          <p className='uppercase text-[10px] font-[600]'>Free Returns</p>
+        </div>
+
+        <div className='widget absolute top-0 left-[50%] flex justify-center items-center gap-3 h-[100%] w-[25%]'> 
+          <Image src='/svg (2).svg' height={15} width={15} alt='Fast Delivery'/>
+          <p className='uppercase text-[10px] font-[600]'>Secret Checkout</p>
+        </div>
+
+        <div className='widget absolute top-0 left-[75%] flex justify-center items-center gap-3 h-[100%] w-[25%]'> 
+          <Image src='/svg (3).svg' height={20} width={20} alt='Fast Delivery'/>
+          <p className='uppercase text-[10px] font-[600]'>Order Tracking</p>
+        </div>
+
+      </div>
 
     </div>
   )

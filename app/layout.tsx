@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_Old_North_Arabian } from "next/font/google";
 import "./globals.css";
 import Navbar from "./navbar/Navbar";
+import Footer from "./footer/footer";
 
 
 const noto_san = Noto_Sans_Old_North_Arabian({
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${noto_san.className} overflow-x-hidden`}>      
         <Navbar/>    
         {children} 
+        <Footer/>
        </body>   
     </html>
   );
